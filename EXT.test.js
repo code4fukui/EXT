@@ -8,7 +8,7 @@ Deno.test("get", () => {
   t.assertEquals(EXT.get("a.b.txt"), "txt");
   t.assertEquals(EXT.get("a"), "");
 });
-Deno.test("replace", () => {
-  t.assertEquals(EXT.replace("a.txt", "bin"), "a.bin");
-  t.assertEquals(EXT.replace("a", "json"), "a.json");
+Deno.test("set", () => {
+  t.assertEquals(EXT.set("a.txt", "bin"), "a.bin");
+  t.assertEquals(EXT.set("a", "json"), "a.json");
 });

@@ -7,6 +7,6 @@ import { EXT } from "https://code4fukui.github.io/EXT/EXT.js";
 
 const ext = EXT.get("a.jpg");
 console.log(ext); // "jpg"
-const fn2 = EXT.replace("a.jpg", "png");
+const fn2 = EXT.set("a.jpg", "png");
 console.log(fn2); // "a.png"
 ```
