@@ -1,8 +1,6 @@
-# EXT - Utility for file name extension
+# EXT - ファイル名拡張子ユーティリティ
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
-
-## Usage
+## 使い方
 
 ```js
 import { EXT } from "https://code4fukui.github.io/EXT/EXT.js";
@@ -15,9 +13,9 @@ const fn3 = EXT.remove("a.jpg");
 console.log(fn3); // "a"
 ```
 
-## Features
-- Get the file extension from a file name
-- Set a new file extension for a file name
+## 機能
+- ファイル名から拡張子を取得
+- ファイル名に新しい拡張子を設定
 
-## License
+## ライセンス
 MIT License

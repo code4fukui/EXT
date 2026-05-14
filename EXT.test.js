@@ -12,3 +12,7 @@ Deno.test("set", () => {
   t.assertEquals(EXT.set("a.txt", "bin"), "a.bin");
   t.assertEquals(EXT.set("a", "json"), "a.json");
 });
+Deno.test("remove", () => {
+  t.assertEquals(EXT.remove("a.txt"), "a");
+  t.assertEquals(EXT.remove("a"), "a");
+});
